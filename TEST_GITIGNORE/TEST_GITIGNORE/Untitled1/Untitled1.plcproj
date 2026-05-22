@@ -18,6 +18,10 @@
     <LibraryReferences>{fd929aff-00b3-4152-a533-81195e814e1d}</LibraryReferences>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GVLs\branch.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
     <Compile Include="GVLs\ROBOT.TcGVL">
       <SubType>Code</SubType>
       <LinkAlways>true</LinkAlways>
